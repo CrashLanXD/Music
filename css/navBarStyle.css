@@ -1,0 +1,48 @@
+.nav-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #141414;
+    height: 490px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.9);
+    transition: all 0.5s ease-in-out;
+}
+
+.playlist-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #131313;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+    width: 90%;
+    height: 100px;
+}
+
+.playlist-item:hover {
+    background-color: #1f1f1f;
+    transition: 0.1s;
+}
+
+.playlist-item img {
+    position: relative;
+    left: 10px;
+    top: 4%;
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.playlist-item h3 {
+    font-size: 20px;
+    position: relative;
+    left: 25%;
+    top: -60%;
+    width: 300px;
+    text-align: left;
+}

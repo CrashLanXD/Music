@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CLXD-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/backgroundStyle.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navBarStyle.css">
+    <link rel="stylesheet" href="css/navMenuStyle.css">
+    <link rel="stylesheet" href="css/greetingStyle.css">
+    <link rel="stylesheet" href="css/artistSectionStyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Music Player | CLXD</title>
+    <!--Comentario-->
+</head>
+
+<body>
+    <div class="background">
+        <img src="" id="bg-img">
+    </div>
+
+    <div class="container">
+        <div class="player-img">
+            <img src="" alt="" class="active" id="cover">
+        </div>
+
+        <h2 id="music-title">Title</h2>
+        <h3 id="music-artist">Artist</h3>
+
+        <div class="play-progress" id="play-progress">
+            <div class="progress" id="progress"></div>
+            <div class="music-duration">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="player-controls">
+            <span class="fa-solid fa-backward" title="Previous" id="prev"></span>
+            <span class="fa-solid fa-play play-button" title="Play" id="play"></span>
+            <span class="fa-solid fa-forward" title="Next" id="next"></span>
+        </div>
+
+    </div>
+
+    <div class="nav-bar" id="nav-bar">
+        <div class="playlist-item" id="playlist-item1">
+            <img src="img\ILoveYouImTryingCover.jpg" alt="I Love You, I'm Trying" id="playlist1-img">
+            <h3>I Love You, I'm Trying</h3>
+        </div>
+        <div class="playlist-item" id="playlist-item2">
+            <img src="img\Whethan - Fantasy Cover.jpg" alt="Fantasy" id="playlist2-img">
+            <h3>Fantasy</h3>
+        </div>
+    </div>
+    
+    <div class="nav-menu"></div>
+
+    <div class="greeting-section">
+        <h1 class="greeting" id="greeting">Welcome ;D</h1>
+    </div>
+
+    <div class="artist-section">
+        <img src="" alt="" id="artist-image">
+    </div>
+
+    <script src="JS/containerScript.js"></script>
+    <script src="JS/greetingScript.js"></script>
+
+</body>
+</html>
